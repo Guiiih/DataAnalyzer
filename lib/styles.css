@@ -18,12 +18,12 @@ iframe {
 
 .graph-container,
 .data-container {
-    width: 50%; /* Altere conforme necessário */
+    width: 50%; 
 }
 
 .data-container {
-    width: 50%; /* Altere conforme necessário */
-    padding: 0 10px; /* Adicione espaço entre os contêineres */
+    width: 50%; 
+    padding: 0 10px; 
     display: flex;
     flex-direction: column;
 }
@@ -34,10 +34,9 @@ iframe {
     height: 400px;
     padding: 8px;
     border: 1px solid #ddd;
-    border-radius: 10px; /* Adiciona curva às bordas */
-    overflow: hidden; /* Garante que a curva seja exibida corretamente */
+    border-radius: 10px; 
+    overflow: hidden; 
     
-    /* Centraliza verticalmente */
     display: flex;
     align-items: center;
 }
@@ -59,7 +58,7 @@ th {
     font-size: 14px;
     letter-spacing: .00625em;
     font-weight: 500;
-    border-bottom: 1px solid #ddd; /* Adiciona borda inferior */
+    border-bottom: 1px solid #ddd; 
 }
 
 .align-right th:nth-child(n+2),
@@ -72,7 +71,7 @@ td {
     font-size: .875rem;
     letter-spacing: .0178571429em;   
     font-weight: 500;   
-    border-top: 1px solid #ddd; /* Adiciona borda superior */
+    border-top: 1px solid #ddd; 
 }
 
 td span {
@@ -83,11 +82,10 @@ td span {
 
 .copyable {
     cursor: pointer;
-    position: relative; /* Para que o span seja posicionado em relação a este elemento */
+    position: relative; 
     transition: background-color 0.3s ease;
 }
 
-/* Estilo para realçar a célula quando copiada */
 .copyable.copied {
     background-color: #f7f7f7;
 }
