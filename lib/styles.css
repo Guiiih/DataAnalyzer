@@ -102,7 +102,7 @@ td span {
 }
 
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 768px) {
     .container {
       padding: 0;
       flex-direction: column;
