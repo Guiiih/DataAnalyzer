@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding: 2rem;
+    display: flex;
+}
+
+.graph-container {
+    width: 50%; /* Altere conforme necessário */
+    padding: 0 10px; /* Adicione espaço entre os contêineres */
+}
+
+.data-container {
+    width: 50%; /* Altere conforme necessário */
+    padding: 0 10px; /* Adicione espaço entre os contêineres */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.table-container {
+    margin-top: 150px;
+    height: 400px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Adiciona curva às bordas */
+    overflow: hidden; /* Garante que a curva seja exibida corretamente */
+    
+    /* Centraliza verticalmente */
+    display: flex;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    text-align: left;    
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+    line-height: 18px;
+    font-size: 14px;
+    letter-spacing: .00625em;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd; /* Adiciona borda inferior */
+}
+
+.align-right th:nth-child(n+2),
+.align-right td:nth-child(n+2) {
+    text-align: right;
+}
+
+td {
+    color: rgb(32,33,36);
+    font-size: .875rem;
+    letter-spacing: .0178571429em;   
+    font-weight: 500;   
+    border-top: 1px solid #ddd; /* Adiciona borda superior */
+}
+
+td span {
+    color: rgb(32,33,36);
+    font-weight: 600;
+    font-size: 14px;       
+}
+
+.copyable {
+    cursor: pointer;
+    position: relative; /* Para que o span seja posicionado em relação a este elemento */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para realçar a célula quando copiada */
+.copyable.copied {
+    background-color: #f7f7f7;
+}
+
+.link-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.link-container img{
+    width: 30px;
+}
