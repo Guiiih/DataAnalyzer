@@ -129,11 +129,11 @@ td span {
   @media only screen and (min-width: 480px) {
     th,
     td {
-      font-size: 10px;
+      font-size: 20px;
     }
   
     td span {
-      font-size: 10px;
+      font-size: 20px;
     }
   
     .link-container {
@@ -168,11 +168,11 @@ td span {
   @media only screen and (max-width: 480px) {
     th,
     td {
-      font-size: 10px;
+      font-size: 12px;
     }
   
     td span {
-      font-size: 10px;
+      font-size: 12px;
     }
   
     .link-container {
