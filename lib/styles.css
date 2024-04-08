@@ -93,3 +93,38 @@ td span {
 .link-container img{
     width: 30px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .graph-container,
+    .data-container {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .table-container {
+      margin-top: 0;
+      height: auto;
+      max-height: none;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    th,
+    td {
+      font-size: 12px;
+    }
+  
+    td span {
+      font-size: 12px;
+    }
+  
+    .link-container {
+      text-align: center;
+    }
+  }
+  
