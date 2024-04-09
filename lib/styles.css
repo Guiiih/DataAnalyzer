@@ -75,13 +75,15 @@ td span {
 }
 @media only screen and (max-width: 1000px) {
   .container {
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     flex-direction: column;
   }
   .data-container{
-    padding: 0;
+    padding: 4rem;
+    padding-top: 0;
   }
-  .graph-container, .data-container {
+  .graph-container {
     width: 100%;
   }
 }
