@@ -78,8 +78,16 @@ td span {
     padding: 0;
     flex-direction: column;
   }
+
+  th {
+    font-size: 17px;
+  }
+
+  td {
+    font-size: 15px;
+  }
   .data-container{
-    padding: 4rem;
+    padding: 1rem;
     padding-top: 0;
   }
   .graph-container {
