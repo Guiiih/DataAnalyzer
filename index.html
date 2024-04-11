@@ -70,6 +70,11 @@
                         <td>60,73</td>
                         <td class="copyable">=AVERAGE(DESLOC(CELL; 0; 0; 5))</td>
                     </tr>
+                    <tr>
+                        <td><span>Verificação de outliers</span></td>
+                        <td></td>
+                        <td class="copyable">=IF(OR(CELL <= Lim. Inf.; CELL >= Lim. Sup.); ; CELL)</td>
+                    </tr>
                 </table>
             </div>
             <div class="link-container">
@@ -143,6 +148,11 @@
                     <td><span>Média Móvel</span></td>
                     <td>5,374</td>
                     <td class="copyable">=AVERAGE(DESLOC(CELL; 0; 0; 5))</td>
+                </tr>
+                <tr>
+                    <td><span>Verificação de outliers</span></td>
+                    <td></td>
+                    <td class="copyable">=IF(OR(CELL <= Lim. Inf.; CELL >= Lim. Sup.); ; CELL)</td>
                 </tr>
             </table>
         </div>
