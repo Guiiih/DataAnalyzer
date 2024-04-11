@@ -58,12 +58,12 @@
                     <tr>
                         <td><span>Média</span></td>
                         <td>66,28732143</td>
-                        <td class="copyable">=AVERAGE(FILTER(CELL:CELL; (CELL:CELL >= Limite inferior) ; (CELL:CELL <= Limite Superior)))</td>
+                        <td class="copyable">=AVERAGE(FILTER(CELL:CELL; (CELL:CELL >= Limite inferior) * (CELL:CELL <= Limite Superior)))</td>
                     </tr>
                     <tr>
                         <td><span>Mediana</span></td>
                         <td>66,735</td>
-                        <td class="copyable">=MED(FILTER(CELL:CELL; (CELL:CELL >= Limite inferior) ; (CELL:CELL <= Limite Superior)))</td>
+                        <td class="copyable">=MED(FILTER(CELL:CELL; (CELL:CELL >= Limite inferior) * (CELL:CELL <= Limite Superior)))</td>
                     </tr>
                     <tr>
                         <td><span>Média Móvel</span></td>
@@ -73,7 +73,7 @@
                     <tr>
                         <td><span>Verificação De Outliers</span></td>
                         <td></td>
-                        <td class="copyable">=IF(OR(CELL <= Lim. Inf.; CELL >= Lim. Sup.); ; CELL)</td>
+                        <td class="copyable">=IF(OR(CELL <= Lim. Inf.; CELL >= Lim. Sup.); "" ; CELL)</td>
                     </tr>
                 </table>
             </div>
@@ -137,12 +137,12 @@
                 <tr>
                     <td><span>Média</span></td>
                     <td>6,387</td>
-                    <td class="copyable">=AVERAGE(FILTER(CELL:CELL; (CELL:CELL >= Limite inferior) ; (CELL:CELL <= Limite Superior)))</td>
+                    <td class="copyable">=AVERAGE(FILTER(CELL:CELL; (CELL:CELL >= Limite inferior) * (CELL:CELL <= Limite Superior)))</td>
                 </tr>
                 <tr>
                     <td><span>Mediana</span></td>
                     <td>6,375</td>
-                    <td class="copyable">=MED(FILTER(CELL:CELL; (CELL:CELL >= Limite inferior) ; (CELL:CELL <= Limite Superior)))</td>
+                    <td class="copyable">=MED(FILTER(CELL:CELL; (CELL:CELL >= Limite inferior) * (CELL:CELL <= Limite Superior)))</td>
                 </tr>
                 <tr>
                     <td><span>Média Móvel</span></td>
@@ -152,7 +152,7 @@
                 <tr>
                     <td><span>Verificação De Outliers</span></td>
                     <td></td>
-                    <td class="copyable">=IF(OR(CELL <= Lim. Inf.; CELL >= Lim. Sup.); ; CELL)</td>
+                    <td class="copyable">=IF(OR(CELL <= Lim. Inf.; CELL >= Lim. Sup.); "" ; CELL)</td>
                 </tr>
             </table>
         </div>
